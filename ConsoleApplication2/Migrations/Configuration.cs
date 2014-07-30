@@ -10,7 +10,6 @@ namespace ConsoleApplication2.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            
         }
 
         protected override void Seed(ConsoleApplication2.Conexao context)

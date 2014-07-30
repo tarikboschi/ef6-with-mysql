@@ -17,6 +17,7 @@ namespace ConsoleApplication2
 
         public DbSet<Pessoa> Pessoa { get; set; }
         public DbSet<TipoDeDados> TipoDeDados { get; set; }
+        public DbSet<Person> Person { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
